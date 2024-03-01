@@ -9,7 +9,7 @@ const app = express();
 const server = createServer(app);  // Updated server creation
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://videop2p11.vercel.app',
     methods: ['GET', 'POST'],
   },
 });

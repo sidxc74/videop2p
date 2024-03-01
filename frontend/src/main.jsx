@@ -5,7 +5,7 @@ import './index.css'
 import { SocketProvider } from './context/socketContext.js'
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://videop2p.onrender.com');
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
